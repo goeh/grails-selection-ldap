@@ -4,9 +4,9 @@ class LdapSelectionTests extends GroovyTestCase {
 
     def selectionService
 
-    def TEST_HOST = "fitpc2"
-    def TEST_DOMAIN = "ehrsson"
-    def TEST_TLD = "se"
+    def TEST_HOST = "localhost"
+    def TEST_DOMAIN = "example"
+    def TEST_TLD = "com"
 
     void testLdapSearchAll() {
         def result = selectionService.select("ldap://$TEST_HOST:389/dc=$TEST_DOMAIN,dc=$TEST_TLD")
