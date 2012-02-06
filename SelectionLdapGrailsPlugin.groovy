@@ -20,13 +20,13 @@ class SelectionLdapGrailsPlugin {
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.0 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [:]
+    def dependsOn = [selection:'0.4 > *']
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
         "grails-app/views/error.gsp"
     ]
 
-    def title = "LDAP provider for Selection Plugin" // Headline display name of the plugin
+    def title = "LDAP provider for the Selection Plugin" // Headline display name of the plugin
     def author = "Goran Ehrsson"
     def authorEmail = "goran@technipelago.se"
     def description = '''\

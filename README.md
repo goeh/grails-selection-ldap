@@ -1,4 +1,4 @@
-# Grails LDAP Selection Plugin
+#LDAP provider for the Selection Plugin
 
 ##This plugin adds LDAP search features to the Grails Selection plugin.
 
