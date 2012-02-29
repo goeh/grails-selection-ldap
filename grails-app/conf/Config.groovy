@@ -24,3 +24,10 @@ log4j = {
 
     debug  'grails.app.selection'
 }
+
+ldapSelection.test.host = "localhost"
+ldapSelection.test.domain = "mycompany"
+ldapSelection.test.tld = "com"
+
+grails.views.default.codec="none"
+grails.views.gsp.encoding="UTF-8"

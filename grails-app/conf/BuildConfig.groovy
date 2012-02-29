@@ -34,6 +34,6 @@ grails.project.dependency.resolution = {
               ":release:1.0.1") {
             export = false
         }
-        compile ":selection:0.4"
+        compile ":selection:0.5.2"
     }
 }
